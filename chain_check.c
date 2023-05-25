@@ -143,7 +143,7 @@ int vars_change(info_t *info)
  * @old: old string
  * @new: new string
  * Return: 0 or 1
- **/
+ */
 int replace_string(char **old, char *new)
 {
 	free(*old);

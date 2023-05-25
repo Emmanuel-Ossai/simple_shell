@@ -5,7 +5,7 @@
  * @info: the struct data
  * @av: the argument vector
  * Return: 0 or 1
- */
+ **/
 int hsh(info_t *info, char **av)
 {
 	ssize_t r = 0;

@@ -39,7 +39,7 @@ list_t *node_addition(list_t **head, const char *str, int num)
  * @str: the string
  * @num: the index
  * Return: list
- */
+ **/
 list_t *_add_ext(list_t **head, const char *str, int num)
 {
 	list_t *new_node, *node;

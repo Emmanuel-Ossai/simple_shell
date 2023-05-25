@@ -97,7 +97,7 @@ typedef struct passinfo
  * struct builtin - a struct of builtin strings
  * @type: the builtin type
  * @func: the function of the program
- **/
+ */
 typedef struct builtin
 {
 	char *type;

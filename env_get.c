@@ -55,7 +55,7 @@ int _unsetenv(info_t *info, char *var)
  * @var: environment variable
  * @value: value of environment variable
  *  Return: 0
- **/
+ */
 int _setenv(info_t *info, char *var, char *value)
 {
 	char *buf = NULL;

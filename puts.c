@@ -4,7 +4,7 @@
  * _eputs - a C function write string
  * @str: the string
  * Return: none
- */
+ **/
 void _eputs(char *str)
 {
 	int x = 0;

@@ -77,7 +77,7 @@ size_t print_list(const list_t *h)
 
 /**
  * prefix_node - a C function that shows string nodes with prefix
- * @node: the node
+ * @node: the node.
  * @prefix: the prefix
  * @c: the character
  * Return: 0

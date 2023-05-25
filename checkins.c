@@ -5,7 +5,7 @@
  * @info: the struct data
  * @path: the path of file
  * Return: 0 or 1
- */
+ **/
 int is_cmd(info_t *info, char *path)
 {
 	struct stat st;

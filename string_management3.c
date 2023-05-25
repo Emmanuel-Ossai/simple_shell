@@ -2,7 +2,7 @@
 
 /**
  * _string_t - a C function that splits a string into words
- * @str: input string
+ * @str: input strings
  * @d: delimeter string
  * Return: array of strings
  **/
