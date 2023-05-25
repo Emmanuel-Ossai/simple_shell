@@ -70,3 +70,30 @@ int _atoi(char *s)
 
 	return (output);
 }
+
+/**
+ * str_int - a C function that convert string to integer
+ * @s: the string
+ * Return: 0, -1 or convertee
+ **/
+int str_int(char *s)
+{
+	int x = 0;
+	unsigned long int result = 0;
+
+	if (*s == '+')
+		s++;
+	for (x = 0;  s[x] != '\0'; x++)
+	{
+		if (s[x] >= '0' && s[x] <= '9')
+		{
+			result *= 10;
+			result += (s[x] - '0');
+			if (result > INT_MAX)
+				return (-1);
+		}
+		else
+			return (-1);
+	}
+	return (result);
+}

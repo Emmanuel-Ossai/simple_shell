@@ -1,26 +1,5 @@
 #include "myshell.h"
 
-/**
- * string_copy - a C function that copies strings
- * @dest: the destination
- * @src: the source
- * Return: dest
- **/
-char *string_copy(char *dest, char *src)
-{
-	int x = 0;
-
-	if (dest == src || src == 0)
-		return (dest);
-	while (src[x])
-	{
-		dest[x] = src[x];
-		x++;
-	}
-	dest[x] = 0;
-	return (dest);
-}
-
 
 /**
  * duplicate_str - a C function that duplicate strings
